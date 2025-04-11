@@ -1,0 +1,6 @@
+/* We're now using Tailwind CSS via CDN instead of PostCSS build process */
+/* These directives are kept for reference but commented out to avoid errors */
+
+/* @tailwind base; */
+/* @tailwind components; */
+/* @tailwind utilities; */

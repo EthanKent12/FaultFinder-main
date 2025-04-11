@@ -1,0 +1,94 @@
+body {
+    font-family: "Space-Grotesk", sans-serif;
+    background-color: #1e88e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #0c66b6;
+    animation: float 10s infinite ease-in-out;
+}
+
+.large{ width: 200px; height: 200px; top: 10%; left: 5%; }
+.medium{ width: 150px; height: 150px; top: 50%; right: 10%; }
+.small{ width: 100px; height: 100px; bottom: 20%; left: 40%; }
+.extra-small{ width: 50px; height: 50px; top: 80%; right: 30%; }
+
+@keyframes float {
+    0%, 100% {transform: translateY(0px); }
+    50% { transform: translateY(20px); }
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 10;
+ }
+
+ .logo { 
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.fault {
+    color: black;
+}
+
+.finder {
+    background: #0e3c65;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.input-field {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: opacity 0.3s;
+}
+
+.input-field::placeholder {
+    color: rgab(0,0,0,0.5);
+}
+
+.input-field:focus::placeholder {
+    opacity: 0;
+}
+
+.sign-in-button {
+    background-color: #0e3c65;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.sign-in-button:hover {
+    background-color: darkblue;
+}

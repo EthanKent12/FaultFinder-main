@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Pirate Bot",
+    "tests_run": 30,
+    "latest_result": "Success"
+  },
+  {
+    "name": "Tim Bot",
+    "tests_run": 10,
+    "latest_result": "Fail"
+  },
+  {
+    "name": "Phillip Bot",
+    "tests_run": 12,
+    "latest_result": "Success"
+  },
+  {
+    "name": "BluePeak IT AI",
+    "tests_run": 22,
+    "latest_result": "Success"
+  },
+  {
+    "name": "AI Assistant",
+    "tests_run": 25,
+    "latest_result": "Fail"
+  },
+  {
+    "name": "Nate Bot",
+    "tests_run": 5,
+    "latest_result": "Fail"
+  }
+]
